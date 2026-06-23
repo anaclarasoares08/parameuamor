@@ -1,1 +1,370 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Clara Soares - Mundo Coquette</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Playfair+Display:ital,wght@0,400;1,700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
 
+    <div class="decoracao lateral-esquerda">
+        <span>🎀</span>
+        <span>✨</span>
+        <span>🌸</span>
+        <span>🎀</span>
+    </div>
+    <div class="decoracao lateral-direita">
+        <span>🎀</span>
+        <span>🌸</span>
+        <span>✨</span>
+        <span>🎀</span>
+    </div>
+
+    <header>
+        <div class="laco-topo">🎀</div>
+        <h1>Ana Clara Soares</h1>
+        <p class="subtitle">Descobrindo o amor no reino animal 🌸</p>
+    </header>
+
+    <main class="container">
+        
+        <div class="flashcard" onclick="virarCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-tag">Curiosidade</div>
+                    <span class="emoji">🐬</span>
+                    <h3>Os Golfinhos</h3>
+                    <p class="hint">Eles têm nomes?</p>
+                </div>
+                <div class="card-back">
+                    <p>"Bom dia, amor! Sabia que os golfinhos usam assobios únicos para se chamarem? É o nome deles! Assim como eu só tenho olhos (e ouvidos) para o seu nome."</p>
+                    <button class="btn-share" onclick="compartilhar(event, 'Os golfinhos têm nomes próprios! Sabia, amor?')">Enviar carinho 💌</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flashcard" onclick="virarCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-tag">Curiosidade</div>
+                    <span class="emoji">🦦</span>
+                    <h3>As Lontras</h3>
+                    <p class="hint">Por que dão as mãos?</p>
+                </div>
+                <div class="card-back">
+                    <p>"Bom dia, vida! As lontras dão as mãos ao dormir para não se separarem na correnteza. Que a gente nunca solte a mão um do outro."</p>
+                    <button class="btn-share" onclick="compartilhar(event, 'As lontras dormem de mãos dadas. Quero assim com você!')">Enviar carinho 💌</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flashcard" onclick="virarCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-tag">Curiosidade</div>
+                    <span class="emoji">🐧</span>
+                    <h3>Pinguins</h3>
+                    <p class="hint">O presente ideal...</p>
+                </div>
+                <div class="card-back">
+                    <p>"Feliz dia! Sabia que o pinguim procura a pedra mais perfeita da praia para dar de presente ao seu amor? Eu te daria o mundo inteiro."</p>
+                    <button class="btn-share" onclick="compartilhar(event, 'Pinguins dão pedrinhas de presente. Eu te dou meu coração!')">Enviar carinho 💌</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flashcard" onclick="virarCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-tag">Curiosidade</div>
+                    <span class="emoji">🐘</span>
+                    <h3>Elefantes</h3>
+                    <p class="hint">Memória do coração</p>
+                </div>
+                <div class="card-back">
+                    <p>"Bom dia! Elefantes têm uma memória incrível e nunca esquecem seus amigos. Minha memória está cheia de momentos lindos com você!"</p>
+                    <button class="btn-share" onclick="compartilhar(event, 'Elefantes nunca esquecem. E eu nunca esqueço de você!')">Enviar carinho 💌</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flashcard" onclick="virarCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-tag">Curiosidade</div>
+                    <span class="emoji">🦢</span>
+                    <h3>Cisnes</h3>
+                    <p class="hint">Fidelidade</p>
+                </div>
+                <div class="card-back">
+                    <p>"Um dia doce para você! Sabia que os cisnes formam casais para a vida toda? Eles são o símbolo da união eterna, como nós."</p>
+                    <button class="btn-share" onclick="compartilhar(event, 'Cisnes casam para sempre. Tipo eu e você.')">Enviar carinho 💌</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="flashcard" onclick="virarCard(this)">
+            <div class="card-inner">
+                <div class="card-front">
+                    <div class="card-tag">Curiosidade</div>
+                    <span class="emoji">🐼</span>
+                    <h3>Pandas</h3>
+                    <p class="hint">Aconchego</p>
+                </div>
+                <div class="card-back">
+                    <p>"Bom dia, fofura! Pandas passam horas comendo e descansando. Meu lugar favorito para descansar é no seu abraço."</p>
+                    <button class="btn-share" onclick="compartilhar(event, 'Sabia que o abraço do panda é o mais fofo? Perde pro seu!')">Enviar carinho 💌</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Criado com doçura por Ana Clara Soares 🌸</p>
+    </footer>
+
+    <script src="script.js"></script>:root {
+    --bg-color: #fff5f7;
+    --card-white: #ffffff;
+    --soft-pink: #ffdae9;
+    --accent-pink: #f8a5c2;
+    --deep-pink: #ff8fa3;
+    --coquette-text: #5d4e4e;
+}
+
+* {
+    box-sizing: border-box;
+    cursor: url('https://cur.cursors-4u.net/symbols/sym-9/sym833.cur'), auto !important; /* Cursor de coração */
+}
+
+body {
+    background-color: var(--bg-color);
+    background-image: radial-gradient(#ffdae9 1px, transparent 1px);
+    background-size: 25px 25px; /* Estampa de poá delicada */
+    color: var(--coquette-text);
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Enfeites Laterais */
+.decoracao {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2rem;
+    padding: 0 20px;
+    z-index: 0;
+    opacity: 0.6;
+}
+
+.lateral-esquerda { left: 0; }
+.lateral-direita { right: 0; }
+
+.decoracao span {
+    animation: flutuar 4s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-20px); }
+}
+
+/* Cabeçalho */
+header {
+    text-align: center;
+    padding: 50px 20px;
+    background: linear-gradient(to bottom, #ffffff, transparent);
+}
+
+.laco-topo {
+    font-size: 3.5rem;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 4rem;
+    color: var(--deep-pink);
+    margin: 0;
+    text-shadow: 2px 2px #ffffff;
+}
+
+.subtitle {
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Container de Flashcards */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Estilo do Flashcard */
+.flashcard {
+    height: 350px;
+    perspective: 1000px;
+}
+
+.card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    transform-style: preserve-3d;
+}
+
+.flashcard.virado .card-inner {
+    transform: rotateY(180deg);
+}
+
+.card-front, .card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    border: 3px solid #fff;
+    box-shadow: 0 10px 20px rgba(255, 143, 163, 0.2);
+}
+
+.card-front {
+    background-color: var(--card-white);
+}
+
+.card-tag {
+    position: absolute;
+    top: 20px;
+    background: var(--soft-pink);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--deep-pink);
+}
+
+.emoji { font-size: 4rem; margin-bottom: 10px; }
+
+.card-front h3 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.2rem;
+    margin: 10px 0;
+    color: var(--deep-pink);
+}
+
+.hint { font-style: italic; font-size: 0.9rem; color: #aaa; }
+
+.card-back {
+    background-color: var(--soft-pink);
+    transform: rotateY(180deg);
+    border: 3px dashed var(--deep-pink);
+}
+
+.card-back p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Botão de Compartilhar */
+.btn-share {
+    background: var(--deep-pink);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-share:hover {
+    background: var(--accent-pink);
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 40px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    color: var(--deep-pink);
+}
+
+/* Barra de rolagem personalizada */
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track { background: var(--bg-color); }
+::-webkit-scrollbar-thumb { background: var(--accent-pink); border-radius: 10px; }// Função para virar o card
+function virarCard(card) {
+    card.classList.toggle('virado');
+    
+    // Pequeno efeito sonoro de "click" ou feedback visual pode ser adicionado aqui
+    if(card.classList.contains('virado')) {
+        criarBrilhos(card);
+    }
+}
+
+// Função de compartilhar
+function compartilhar(event, texto) {
+    event.stopPropagation(); // Impede que o card vire ao clicar no botão
+    
+    if (navigator.share) {
+        navigator.share({
+            title: 'Curiosidade Animal 🌸',
+            text: texto,
+        });
+    } else {
+        navigator.clipboard.writeText(texto);
+        alert("Copiado com amor! Agora é só colar no chat da pessoa especial. 🎀");
+    }
+}
+
+// Efeito criativo: Cria brilhos ao redor do card quando ele vira
+function criarBrilhos(elemento) {
+    for (let i = 0; i < 5; i++) {
+        const sparkle = document.createElement('div');
+        sparkle.innerHTML = '✨';
+        sparkle.style.position = 'absolute';
+        sparkle.style.left = Math.random() * 100 + '%';
+        sparkle.style.top = Math.random() * 100 + '%';
+        sparkle.style.fontSize = '20px';
+        sparkle.style.pointerEvents = 'none';
+        sparkle.style.animation = 'fadeOut 1s forwards';
+        
+        elemento.appendChild(sparkle);
+        
+        setTimeout(() => sparkle.remove(), 1000);
+    }
+}
+
+// CSS adicional para a animação de brilho (injetado via JS)
+const style = document.createElement('style');
+style.innerHTML = `
+    @keyframes fadeOut {
+        from { opacity: 1; transform: translateY(0); }
+        to { opacity: 0; transform: translateY(-30px); }
+    }
+`;
+document.head.appendChild(style);
+</body>
+</html>
